@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    background-color: #BFBFBF;
+    font-family: 'Didact Gothic', arial, serif;
+    color: #5A645A;
+}
+
+#fond {
+    padding: 0;
+    width: 700px;
+    margin: auto auto;
+    border: white 1px solid;
+    position: relative;
+    height: 636px;
+    overflow: hidden
+
+}
+
+#bloc-vert {
+    width: 600px;
+    margin: auto auto;
+    background-color: #B3D979;
+    height: 550px;
+    overflow: hidden;
+    margin: 50px;
+}
+
+h1 {
+    position: absolute;
+    left: 80px;
+    padding: 0;
+    margin: 0;
+    top: 28px;
+    font-family: 'Homemade Apple', arial, serif;
+    font-size: 34px;
+    font-weight: normal;
+    color: #007E02;
+    text-shadow: 2px 2px 8px black;
+    line-height: 35px;
+
+}
+
+h1 .subtitle {
+    font-size: 18px;
+    text-shadow: none;
+    position: relative;
+    left: 250px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+h2 {
+    font-size: 18px
+}
+
+ul {
+
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    background-color: #828C82;
+    width: 136px;
+    height: 27px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+
+}
+
+li a {
+    font-family: 'Homemade Apple', arial, serif;
+    font-size: 14px;
+    color: #B3BF3B;
+    text-shadow: 2px 2px 4px black;
+    text-decoration: none;
+}
+
+img {
+    width: 80px
+}
+
+p {
+    font-size: 12px
+}
+
+#menu {
+    position: absolute;
+    top: 185px;
+    left: 7px;
+    margin: 0;
+    padding: 0;
+}
+
+#texte {
+    width: 410px;
+    left: 190px;
+    top: 90px;
+    position: absolute;
+}
+
+#info {
+    font-size: 16px;
+    font-family: 'Homemade Apple', arial, serif;
+    color: #444;
+    position: absolute;
+    left: 233px;
+    top: 604px;
+}
+
+#info a {
+    padding: 0 25px
+
+}
