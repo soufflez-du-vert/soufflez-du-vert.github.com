@@ -55,6 +55,10 @@ h2 {
     font-size: 18px
 }
 
+h3{
+    font-size: 12px;
+}
+
 ul {
 
 }
@@ -79,7 +83,7 @@ li a {
     text-decoration: none;
 }
 
-p {
+p, table {
     font-size: 12px
 }
 

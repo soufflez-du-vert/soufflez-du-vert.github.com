@@ -30,9 +30,15 @@
   AppCntl.$inject = ['$route']
   function AppCntl($route) {
     // define routes
-    $route.when("", {template:'./concept.html'});
+    $route.when("", {template:'./accueil.html'});
+    $route.when("/concept", {template:'./concept.html'});
     $route.when("/ou_semer_en_ville", {template:'./ou_semer_en_ville.html'});
     $route.when("/ou_semer_chez_soi", {template:'./ou_semer_chez_soi.html'});
+    $route.when("/l_ensemenseur", {template:'./l_ensemenseur.html'});
+    $route.when("/graines", {template:'./graines.html'});
+    $route.when("/pourquoi_semer", {template:'./pourquoi_semer.html'});
+    $route.when("/bien_etre", {template:'./bien_etre.html'});
+    $route.when("/nourriciere", {template:'./nourriciere.html'});
     $route.parent(this);
 
   }
@@ -42,10 +48,10 @@
   <h1>Soufflez du vert sur la ville
     <br/> <span class="subtitle">l'ensemenseur de la ville de demain</span></h1>
   <ul id="menu">
-    <li><a href="/">Concept</a></li>
-    <li><a href="#/ou_semer_en_ville">Ou semer ?</a></li>
-    <li><a href="#">L'ensemensseur</a></li>
-    <li><a href="#">Les graines</a></li>
+    <li><a href="/">concept</a></li>
+    <li><a href="#/ou_semer_en_ville">semer</a></li>
+    <li><a href="#/l_ensemenseur">ensemenseur</a></li>
+    <li><a href="#/graines">graines</a></li>
   </ul>
   <div id="bloc-vert">
     <div id="texte">
