@@ -55,7 +55,7 @@ h2 {
     font-size: 18px
 }
 
-h3{
+h3 {
     font-size: 12px;
 }
 
@@ -65,14 +65,7 @@ ul {
 
 li {
     list-style: none;
-    margin: 10px;
-    background-color: #828C82;
-    width: 136px;
-    height: 27px;
-    border-bottom-left-radius: 7px;
-    border-top-right-radius: 7px;
-    text-align: center;
-
+    position: relative;
 }
 
 li a {
@@ -81,6 +74,38 @@ li a {
     color: #B3BF3B;
     text-shadow: 2px 2px 4px black;
     text-decoration: none;
+    display: block;
+    margin: 10px;
+    background-color: #828C82;
+    width: 136px;
+    height: 27px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+li a:hover {
+    background-color: #444;
+
+}
+
+li ul {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    z-index: 20;
+    margin: 0;
+    padding: 0;
+}
+
+li:hover > ul {
+    display: block;
+
 }
 
 p, table {
