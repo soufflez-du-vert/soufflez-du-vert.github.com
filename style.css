@@ -5,6 +5,11 @@ body {
     color: #5A645A;
 }
 
+a{
+    color: #444;
+
+}
+
 #fond {
     padding: 0;
     width: 700px;
@@ -12,8 +17,9 @@ body {
     border: white 1px solid;
     position: relative;
     height: 636px;
-    overflow: hidden
-
+    overflow: hidden;
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.24, rgb(191, 191, 191)), color-stop(0.81, rgb(150, 150, 150)));
+    background-image: -moz-linear-gradient(left top,rgb(191, 191, 191) 24%, rgb(150, 150, 150) 81%);
 }
 
 #bloc-vert {
@@ -23,6 +29,9 @@ body {
     height: 550px;
     overflow: hidden;
     margin: 50px;
+
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.24, rgb(179, 217, 121)), color-stop(0.81, rgb(138, 191, 59)));
+    background-image: -moz-linear-gradient(left top, rgb(179, 217, 121) 24%,  rgb(138, 191, 59) 81%);
 }
 
 h1 {
