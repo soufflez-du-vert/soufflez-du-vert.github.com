@@ -75,6 +75,8 @@ ul {
 li {
     list-style: none;
     position: relative;
+    padding: 5px;
+
 }
 
 li a {
@@ -84,7 +86,6 @@ li a {
     text-shadow: 2px 2px 4px black;
     text-decoration: none;
     display: block;
-    margin: 10px;
     background-color: #828C82;
     width: 136px;
     height: 27px;
@@ -105,8 +106,8 @@ li a:hover {
 li ul {
     display: none;
     position: absolute;
-    top: -10px;
-    left: 150px;
+    top: 0px;
+    left: 145px;
     z-index: 20;
     margin: 0;
     padding: 0;
