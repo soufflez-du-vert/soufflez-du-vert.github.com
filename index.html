@@ -42,6 +42,8 @@
     $route.when("/pourquoi_semer", {template:'./pourquoi_semer.html'});
     $route.when("/bien_etre", {template:'./bien_etre.html'});
     $route.when("/nourriciere", {template:'./nourriciere.html'});
+     $route.when("/liens", {template:'./liens.html'});
+     $route.when("/contact", {template:'./contact.html'});
     $route.parent(this);
 
   }
@@ -51,6 +53,7 @@
   <h1>Soufflez du vert sur la ville
     <br/> <span class="subtitle">l'ensemenseur de la ville de demain</span></h1>
   <ul id="menu">
+    <li><a href="/">accueil</a></li>
     <li><a href="#/concept">concept</a>
         <ul>
       <li><a href="#/concept">concept</a></li>
@@ -82,7 +85,7 @@
     </div>
   </div>
   <div id="info">
-    <a href="#/lien">lien</a>
+    <a href="#/liens">liens</a>
     <a href="#/contact">contact</a>
     <a href="/plan.html">plan du site</a>
   </div>
