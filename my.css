@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "Show Card Gothic";
+    src: url('fonts/SHOWG.ttf');
+}
+
+@font-face {
+    font-family: "Shruti";
+    src: url('fonts/shruti.ttf');
+}
+
+@font-face {
+    font-family: "Tw";
+    src: url('fonts/tw-cen-mt-condensed-extra-bold.ttf');
+}
+
+@font-face {
+    font-family: "Old Stamper";
+    src: url('fonts/old_stamper.ttf');
+}
+
+body,
+#head {
+  background-color: #92b80d;
+}
+
+body,
+#head,
+#bloc {
+  padding: 0 10px;
+}
+
+#fond {
+  background-color: white;
+}
+
+#head,
+#fond {
+  max-width: 715px;
+  margin: auto auto;
+}
+
+#head{
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#head h1 {
+  font-family: "Show Card Gothic", Helvetica, Arial, sans-serif;
+  color: white;
+  margin-bottom: 0px;
+  font-size: 1em;
+}
+
+#head .fleur{
+  width: 190px;
+  position: absolute;
+  bottom: -120px;
+}
+
+#head .fleur1{
+  left: -114px;
+  display: none;
+}
+
+#head .fleur2{
+  right: -123px;
+}
+
+#head .subtitle {
+  font-family: "Shruti", Helvetica, Arial, sans-serif;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+  padding: 20px 10px 0;
+}
+
+#menu{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+
+#menu li {
+  background-image:url(images/traits onglets.png);
+  background-repeat:no-repeat;
+}
+
+#menu a {
+  display:block;
+  text-decoration: none;
+  font-family: "Tw", Helvetica, Arial, sans-serif;
+  color: #8B6323;
+  text-transform: capitalize;
+
+  background-repeat: no-repeat;
+  background-image:url(images/traits-onglets.png);
+  background-position: center center;
+  height: 33px;
+  line-height: 22px;
+  padding: 0 10px;
+}
+
+#menu a { transition: all .2s ease-in-out; }
+#menu a:hover { transform: scale(1.1); }
+
+h2 {
+  color: #658106;
+  font-family: "Tw", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+h2:before {
+    content: "";
+    display: block;
+    background: url("images/points.jpg") no-repeat;
+    width: 62px;
+    height: 24px;
+    float: left;
+    margin: 0 15px 0 5px;
+}
+
+h3 {
+  color: #8B6323;
+  font-family: "Old Stamper", Helvetica, Arial, sans-serif;
+  transform: rotate(-1.5deg);
+  font-size: 0.8em;
+}
+
+h3::before{ 
+  content:"["; 
+}
+
+h3::after{ 
+  content:"]";
+}
+
+p {
+  font-family: "Shruti", Helvetica, Arial, sans-serif;
+}
+
+img {
+  width: 80%;
+  text-align: center;
+}
+
+img.main {
+  padding: 10%;
+}
+
+img.three {
+  width: 24%;
+}
+
+a[target=_blank] {
+  color: grey;
+}
+
+@media only screen and (min-width: 321px) {
+  #head h1 {
+    font-size: 1.5em;
+  }
+
+  #head .subtitle {
+    padding: 8px 50px 15px;
+  }
+}
+
+@media only screen and (min-width: 721px) {
+  body,
+  #head,
+  #bloc {
+    padding: 0 20px;
+  }
+
+  img.ver {
+    width: 153px;
+    text-align: center;
+    padding: 0;
+  }
+  img.hor {
+    width: 346px;
+  }
+
+  img.two {
+    width: 49%;
+  }
+
+  #head{
+    overflow: visible;
+  }
+
+  #head h1 {
+    font-size: 2.9em;
+  }
+
+  #head .fleur{
+    bottom: -69px;
+  }
+
+  #head .fleur1{
+    display:inline-block;
+    left: -114px;
+  }
+
+  #head .fleur2{
+    right: -123px;
+  }
+
+  #menu li {
+    display:inline-block;
+    width: 16%;
+    text-align: center;
+  }
+
+  #menu {
+    background-image:url(images/traits-onglets.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 6px 14px;
+    background-size: 105%;
+  }
+
+  #menu a {
+    background-image: none;
+  }
+
+  #texte {
+    padding-bottom: 100px;
+  } 
+}

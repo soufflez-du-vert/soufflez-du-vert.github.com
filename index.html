@@ -4,12 +4,12 @@
   <title>Soufflez du vert sur la ville</title>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <meta name="description"
-        content="L'ensemenseur de la ville de demain - concours de l'innovation jardins, jardins aux Tuileries"/>
+        content="l'ensemenseur de la ville de demain - concours de l'innovation jardins, jardins aux Tuileries"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="normalize.css"/>
   <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" type="text/javascript"></script>
   <script src="http://code.angularjs.org/angular-0.9.15.min.js" ng:autobind></script>
-  <link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'></link>
   <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -49,47 +49,29 @@
   }
 </script>
 
+<div id="head">
+  <h1>Soufflez du vert sur la ville</h1>
+  <span class="subtitle">l'ensemenseur de la ville de demain</span>
+  <img class="fleur fleur1" src="images/pissenlits1.png" />
+  <img class="fleur fleur2" src="images/pissenlits2.png" />
+</div>
 <div id="fond">
-  <h1>Soufflez du vert sur la ville
-    <br/> <span class="subtitle">l'ensemenseur de la ville de demain</span></h1>
+
   <ul id="menu">
     <li><a href="/">accueil</a></li>
-    <li><a href="#/concept">concept</a>
-        <ul>
-      <li><a href="#/concept">concept</a></li>
-      <li><a href="#/pourquoi_semer">pourquoi semer?</a></li>
-    </ul>
-    </li>
+    <li><a href="#/concept">concept</a> </li>
     <li><a href="#/l_ensemenseur">ensemenseur</a></li>
-    <li><a href="#/graines">graines</a>
-    <ul>
-      <li><a href="#/graines">les graines</a></li>
-      <li><a href="#/bien_etre">bien être</a></li>
-      <li><a href="#/nourriciere">nourriciere</a></li>
-    </ul>
-    </li>
-    <li><a href="#/ou_semer_en_ville">semer</a>
-      <ul>
-        <li><a href="#/ou_semer_en_ville">semer en ville?</a></li>
-        <li><a href="#/ou_semer_chez_soi">semer chez soi?</a></li>
-      </ul>
-    </li>
-
-
+    <li><a href="#/graines">graines</a> </li>
+    <li><a href="#/ou_semer_en_ville">semer</a> </li>
+    <li><a href="#/contact">contact</a></li>
   </ul>
-  <div id="bloc-vert">
+  <div id="bloc">
     <div id="texte">
       <div ng:controller="AppCntl">
         <ng:view></ng:view>
       </div>
     </div>
   </div>
-  <div id="info">
-    <a href="#/liens">liens</a>
-    <a href="#/contact">contact</a>
-    <a href="/plan.html">plan du site</a>
-  </div>
-
 </div>
 
 </body>
