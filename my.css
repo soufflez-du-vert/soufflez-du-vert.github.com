@@ -156,7 +156,7 @@ a[target=_blank] {
   color: grey;
 }
 
-@media only screen and (min-width: 321px) {
+@media only screen and (min-width: 390px) {
   #head h1 {
     font-size: 1.5em;
   }
@@ -191,7 +191,7 @@ a[target=_blank] {
   }
 
   #head h1 {
-    font-size: 2.9em;
+    font-size: 2.6em;
   }
 
   #head .fleur{
